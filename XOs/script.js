@@ -43,7 +43,6 @@ function clickFunction(e){
     const cell = e.target
     const currClass = Xnow ? O_class : X_class
     cell.classList.add(currClass)
-    //insertClass(cell, currClass)
     if(checkWin(currClass)){
         finish(true)
     } 
@@ -55,10 +54,6 @@ function clickFunction(e){
         showHover()
     }
 }
-
-/*function insertClass(cell, currClass){
-    
-}*/
 
 function checkWin(currClass){
     return winSet.some(combination => {
