@@ -5,7 +5,5 @@ This is a personal project I worked on. I used HTML, CSS, and JavaScript to make
 
 ![Start](/start.png)
 ![Play](/play.png)
-![Win](/win.png)
 
-Idea and motivation from Web Dev Simplified on Youtube.
 
